@@ -1,35 +1,38 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta />
-        <!-- Кодировка -->
-        <meta />
-        <!-- Описание -->
-        <title>Разгадай код</title>
-    </head>
-    <body>
-        <h1>Исправьте атрибуты в коде</h1>
 
-        <a>Нажми на меня</a>
+<head>
+    <meta charset="UTF-8"  />
+    <!-- Кодировка -->
+    <meta name="description" content="Описание страницы"/>
+    <!-- Описание -->
+    <title>Разгадай код</title>
+</head>
 
-        <img />
+<body>
+    <h1>Исправьте атрибуты в коде</h1>
 
-        <form>
-            <input />
-            <button>Отправить</button>
-        </form>
+    <a href="https://example.com" target="\_blank">Нажми на меня</a>
 
-        <video></video>
+    <img src="image.jpg" alt="Описание изображения"  title="Пример страницы" height="200" width="300"/>
 
-        <audio></audio>
+    <form name="username" action="submit.php" method="POST">
+        <input type="text" placeholder="Введите имя"/>
+        <button type="submit" >Отправить</button>
+    </form>
 
-        <table>
-            <tr>
-                <td>Ячейка 1</td>
-                <td>Ячейка 2</td>
-            </tr>
-        </table>
+    <video src="video.mp4" height="400" width="600" autoplay loop controls></video>
 
-        <iframe></iframe>
-    </body>
+    <audio src="audio.mp3" controls></audio>
+
+    <table  border="1" cellpadding="5" cellspacing="5"> 
+        <tr>
+            <td>Ячейка 1</td>
+            <td>Ячейка 2</td>
+        </tr>
+    </table>
+
+    <iframe src="https://example.com"></iframe>
+</body>
+
 </html>
